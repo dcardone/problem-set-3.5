@@ -7,37 +7,59 @@
 }
 
 body {
-  background-color: #F0F3BD;
+  background-color: #554348;
 }
 
 h1 {
-  color: #02C39A;
+  color: #93b7be;
   font-family: 'Arvo', sans-serif;
   text-align: center;
 }
 
 h2 {
+  color: #93b7be;
   font-family: 'Arvo', sans-serif;
 }
 
 h3 {
+  color: #a0d9ff;
   font-family: 'Arvo', sans-serif;
 }
 
 
 p {
-  color: #05668D;
+  color: #d4f5f5;
   font-family: 'Arvo', sans-serif;
 }
 
 ul {
-  color: #05668D;
+  color: #d4f5f5;
   font-family: 'Arvo', sans-serif;
 }
 
 ol {
+  color: #d4f5f5;
   font-family: 'Arvo', sans-serif;
 }
+
+img {
+  border: 10px solid #747578;
+  margin: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
 .artistname {
     text-align: center;
+}
+
+.navbar {
+  background-color: #d4f5f5;
+  width: 271px;
+  margin-right: auto;
+  margin-left: auto;
 }
