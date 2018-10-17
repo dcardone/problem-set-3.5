@@ -42,15 +42,24 @@ ol {
   font-family: 'Arvo', sans-serif;
 }
 
+table {
+  color: #d4f5f5;
+}
+td {
+  border:5px solid #8c9a9e;
+}
+
+th {
+  border:5px solid #8c9a9e;
+}
+
 img {
   border: 10px solid #747578;
   margin: auto;
 }
 
 .center {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%
+  align: center;
 }
 
 .artistname {
@@ -62,4 +71,12 @@ img {
   width: 271px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 25px;
 }
