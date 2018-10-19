@@ -58,12 +58,12 @@ img {
   margin: auto;
 }
 
-.center {
-  align: center;
-}
-
 .artistname {
     text-align: center;
+}
+
+.center {
+  align: center;
 }
 
 .navbar {
@@ -73,10 +73,10 @@ img {
   margin-left: auto;
 }
 
-.textcenter {
-  text-align: center;
-}
-
 .rounded {
   border-radius: 25px;
+}
+
+.textcenter {
+  text-align: center;
 }
