@@ -1,9 +1,14 @@
+
 @font-face {
   font-family: 'Arvo';
   font-style: normal;
   font-weight: 400;
   src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v10/tDbD2oWUg0MKqScQ7Q.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+  line-height: 1.6;
 }
 
 body {
@@ -26,7 +31,6 @@ h3 {
   font-family: 'Arvo', sans-serif;
 }
 
-
 p {
   color: #d4f5f5;
   font-family: 'Arvo', sans-serif;
@@ -47,36 +51,74 @@ table {
 }
 td {
   border:5px solid #8c9a9e;
+  text-align: center;
 }
 
 th {
   border:5px solid #8c9a9e;
+  text-align: center;
 }
 
 img {
   border: 10px solid #747578;
-  margin: auto;
+  margin: 20px;
+}
+
+a {
+  color: #d4f5f5;
+}
+
+a:hover {
+  font-weight: bold;
 }
 
 .artistname {
     text-align: center;
 }
 
+.artistpicture {
+  margin: 8px;
+}
+
 .center {
-  align: center;
+  align: "center";
 }
 
 .navbar {
-  background-color: #d4f5f5;
-  width: 271px;
+  width: 300px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.textcenter {
+  text-align: center;
 }
 
 .rounded {
   border-radius: 25px;
 }
 
-.textcenter {
-  text-align: center;
+#earliesttrumpet {
+  width: 300px;
+  height: 300px;
+}
+
+#earlyhorns {
+  width: 300px;
+  height: 400px;
+}
+
+#gravesposthorn {
+  width: 500px;
+  height: 250px;
+}
+
+#moderntrumpet {
+  width: 600px;
+  height: 187px;
+}
+
+#valvediagram {
+  width: 262px;
+  height: 389px;
 }
