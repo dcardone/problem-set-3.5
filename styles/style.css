@@ -14,6 +14,10 @@ body {
   background-color: #554348;
 }
 
+body p {
+  font-size: 18px;
+}
+
 h1 {
   color: #93b7be;
   font-family: 'Arvo', sans-serif;
@@ -33,7 +37,6 @@ h3 {
 p {
   color: #d4f5f5;
   font-family: 'Arvo', sans-serif;
-  font-size: 18px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -42,9 +45,17 @@ footer {
   color: #d4f5f5;
 }
 
+a ~ footer {
+  font-weight: 30000px;
+}
+
 ul {
   color: #d4f5f5;
   font-family: 'Arvo', sans-serif;
+}
+
+p + ul {
+  font-size: 20px;
 }
 
 ol {
@@ -89,12 +100,16 @@ a:visited {
   color: #11f4fc;
 }
 
-a[href="robbstewart"] {
-  color: brown;
+a[href*="robbstewart"] {
+  color: #d4f5f5;
 }
 
-div[a] {
+a[div] {
   color: #d4f5f5;
+}
+
+a[href="mailto:info@example.com"] {
+  color: #8c9a9e;
 }
 
 .artistname {
