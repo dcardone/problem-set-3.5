@@ -77,12 +77,24 @@ td>img {
   border-radius: 25px;
 }
 
-a {
+a:link {
   color: #d4f5f5;
 }
 
 a:hover {
   font-weight: bold;
+}
+
+a:visited {
+  color: #11f4fc;
+}
+
+a[href="robbstewart"] {
+  color: brown;
+}
+
+div[a] {
+  color: #d4f5f5;
 }
 
 .artistname {
